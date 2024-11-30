@@ -1,0 +1,38 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"terminal.integrated.profiles.windows": {
+			"PowerShell": {
+				"source": "PowerShell",
+				"icon": "terminal-powershell"
+			},
+			"Command Prompt": {
+				"path": [
+					"${env:windir}\\Sysnative\\cmd.exe",
+					"${env:windir}\\System32\\cmd.exe"
+				],
+				"args": [
+					"/k",
+					"D:/ProgramFiles/Espressif/idf_cmd_init.bat",
+					"esp-idf-27c37c86019777fdf0efdce7b6113735"
+				],
+				"icon": "terminal-cmd"
+			},
+			"Git Bash": {
+				"source": "Git Bash"
+			}
+		},
+		"terminal.integrated.defaultProfile.windows": "Command Prompt",
+		"files.associations": {
+			"ledc.h": "c",
+			"gpio.h": "c",
+			"esp_wifi.h": "c",
+			"reg_neo_pix.h": "c",
+			"stdio.h": "c"
+		}
+	}
+}
