@@ -1,0 +1,47 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"terminal.integrated.profiles.windows": {
+			"PowerShell": {
+				"source": "PowerShell",
+				"icon": "terminal-powershell"
+			},
+			"Command Prompt": {
+				"path": [
+					"${env:windir}\\Sysnative\\cmd.exe",
+					"${env:windir}\\System32\\cmd.exe"
+				],
+				"args": [
+					"/k",
+					"D:/ProgramFiles/Espressif/idf_cmd_init.bat",
+					"esp-idf-27c37c86019777fdf0efdce7b6113735"
+				],
+				"icon": "terminal-cmd"
+			},
+			"Git Bash": {
+				"source": "Git Bash"
+			}
+		},
+		"terminal.integrated.defaultProfile.windows": "Command Prompt",
+		"files.associations": {
+			"gpio.h": "c",
+			"freertos.h": "c",
+			"task.h": "c",
+			"stdbool.h": "c",
+			"gpio_etm.h": "c",
+			"bit": "cpp",
+			"compare": "cpp",
+			"limits": "cpp",
+			"new": "cpp",
+			"esp_system.h": "c",
+			"*.inc": "cpp",
+			"atomic": "cpp",
+			"esp_chip_info.h": "c",
+			"esp_heap_caps.h": "c"
+		}
+	}
+}
